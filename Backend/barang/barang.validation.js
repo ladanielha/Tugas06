@@ -72,7 +72,7 @@ const BarangNamaValidator = (optional=false, target="nama") => {
   return validator;
 }
 
-const BarangSatuanValidator = (optional=false, target="nama") => {
+const BarangSatuanValidator = (optional=false, target="satuan") => {
   const validator = body(target);
 
   if (optional) {
